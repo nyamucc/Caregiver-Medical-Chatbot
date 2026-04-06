@@ -11,7 +11,7 @@ A Streamlit-based educational tool that helps caregivers look up medications and
 
 ## 📸 App Preview
 
-![App Screenshot](https://raw.githubusercontent.com/nyamucc/Caregiver-Medical-Chatbot/main/screenshot.png)
+![App Screenshot](https://github.com/nyamucc/Caregiver-Medical-Chatbot/blob/main/interface.png)
 
 
 ## Features
