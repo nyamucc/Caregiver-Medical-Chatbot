@@ -9,7 +9,7 @@
 
 A Streamlit-based educational tool that helps caregivers look up medications and receive general information, monitoring guidance, safety alerts, and documentation prompts. Designed for long-term care, assisted living, and home-care environments, this tool supports safer workflows and improves shift communication.
 
-## 📸 App Preview
+## App Preview
 
 ![App Screenshot](https://github.com/nyamucc/Caregiver-Medical-Chatbot/blob/main/interface.png)
 
@@ -23,3 +23,59 @@ A Streamlit-based educational tool that helps caregivers look up medications and
 - **Infection Early-Warning Signs:** Prompts for antibiotics and high-risk medications.
 - **Shift-Handover Note Generator:** Auto-creates structured notes caregivers can copy into documentation systems.
 - **Simple Streamlit Interface:** Easy for caregivers with varying digital literacy levels.
+
+## Technical Architecture
+
+**Frontend:** Streamlit  
+**Backend:** Python  
+**Data Source:** Structured JSON dataset (`medications.json`)  
+**Core Components:**
+- Medication search engine (generic + brand names)
+- JSON‑based medication knowledge base
+- Monitoring & safety guidance generator
+- Shift‑handover note generator
+- Streamlit UI with dynamic rendering
+
+**Deployment:** Streamlit Cloud  
+**Version Control:** Git + GitHub  
+
+
+
+## Why This Project Matters for Long‑Term Care
+
+Medication errors and inconsistent monitoring are major risks in long‑term care settings.  
+This tool supports:
+
+- Safer medication administration  
+- More consistent monitoring  
+- Better shift‑handover communication  
+- Faster caregiver onboarding  
+- Reduced documentation gaps  
+
+It demonstrates applied expertise in **AI, healthcare workflows, and LTC documentation**, aligning with national healthcare priorities.
+
+## Future Enhancements
+
+- Add chat‑based medication Q&A  
+- Add fuzzy search and autocomplete  
+- Add color‑coded safety alerts  
+- Add vitals‑based monitoring suggestions  
+- Add a second tool (symptom checker or vitals tracker)  
+- Add multilingual support  
+
+# 📂 Project Structure
+
+Caregiver-Medical-Chatbot/
+│
+├── Data/
+│   ├── medications_app.py
+│   ├── medications.json
+│
+├── requirements.txt
+├── README.md
+
+MIT License
+
+Copyright (c) 2024 Charity
+
+Permission is hereby granted, free of charge, to any person obtaining a copy...
