@@ -1,6 +1,18 @@
 # Caregiver Medication & Monitoring Assistant
 
+[![Live App](https://img.shields.io/badge/Live%20Demo-Streamlit-brightgreen?logo=streamlit)](https://caregiver-medical-chatbot-6hagwgmusjnx46v7zihhpd.streamlit.app/)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
 A Streamlit-based educational tool that helps caregivers look up medications and receive general information, monitoring guidance, safety alerts, and documentation prompts. Designed for long-term care, assisted living, and home-care environments, this tool supports safer workflows and improves shift communication.
+
+## 📸 App Preview
+
+![App Screenshot](https://raw.githubusercontent.com/nyamucc/Caregiver-Medical-Chatbot/main/screenshot.png)
+
 
 ## Features
 - **Medication Lookup:** General uses, typical dosage ranges (non-personalized), side effects, contraindications, interactions, and storage guidance.
